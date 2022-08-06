@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,6,6,0.5),rgba(7,8,9,0.5)), url(home_background1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.781)), url(home_background1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,7 +17,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 70px;
 }
 .nav-links {
     flex: 1;
@@ -37,7 +37,7 @@ nav img{
 .nav-links ul li::after {
     content: '';
     width: 0%;
-    height: 2px;
+    height: 3px;
     background: rgb(11, 224, 46);
     display: block;
     margin: auto;
@@ -66,7 +66,7 @@ nav img{
     color: #fff;
     border: 1px solid rgb(255, 255, 255);
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -74,7 +74,7 @@ nav img{
 .hero-btn:hover{
     border: 1px solid rgb(5, 240, 103);
     background: rgb(70, 9, 238);
-    transition: 0.7s;
+    transition: 1.5s;
 }
 @media(max-width:700px){
     .text-box h1{
